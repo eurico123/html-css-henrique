@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum omnis, voluptate mollitia ipsam rem repudiandae aperiam cum incidunt odit facilis eligendi, unde qui? Vitae repudiandae facere inventore suscipit beatae.</p>
+
+    <ul>
+        <li><a href="paginasextras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="./paginasextras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="./paginasextras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sequi blanditiis dicta maiores. Placeat, provident praesentium. Repellat est natus consequatur non optio, totam voluptas ullam minima sit nostrum qui excepturi!
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repudiandae eum, accusamus iusto delectus, inventore unde nihil possimus ducimus, atque magnam odit fuga. Rerum quaerat ducimus, porro ut accusantium laudantium!
+    </p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat esse asperiores, ea unde aut impedit cum laborum recusandae hic sed rem quibusdam facilis, consequuntur minus voluptate optio harum.</p><img src='imagens/astronauta.png'>" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat esse asperiores, ea unde aut impedit cum laborum recusandae hic sed rem quibusdam facilis, consequuntur minus voluptate optio harum. Perspiciatis.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod sapiente quisquam repudiandae libero nulla, beatae similique tenetur, minima esse reiciendis iste praesentium illo quibusdam deleniti necessitatibus quo tempora aut!
+    </p>
+</body>
+</html>
