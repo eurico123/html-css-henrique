@@ -2,3 +2,32 @@
 
 /* Configurações de Outras Mídias */
 
+/* Typical Device Breakpoints
+-------------------------------
+
+Pequenas Telas: até 320px
+Celular: de 320px até 480px
+Tablet: de 481px até 768px
+Desktop: de 769px até 1200px
+Grandes Telas: acima de 1200px
+
+-------------------------------
+*/
+
+@media screen and (min-width: 769px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 767px;
+    }
+}
